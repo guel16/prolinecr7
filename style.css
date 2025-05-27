@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  @font-face {
+    font-family: 'cr7';
+    src: url('fontes/BreatheFireIii-PKLOB.ttf');
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'cr7';
+    font-size: 120px;
+    color: black;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  .etiquetaClasse1 {
+    font-size: 60px;
+    color: lightblue;
+  }
+  
+  #etiquetaID {
+    color: black;
+    font-size: 50px;
+  }
+  
+  h3 {
+    font-size: 35px;
+  }
+  
+  .preco-pix {
+    color: red;
+  }
+  
+  .produto-destaque {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .produto-destaque img {
+    width: 500px;
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: green;
+    border: 3px solid green;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  footer {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .outros-produtos {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .produto {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .produto img {
+    width: 100%;
+  }
+  
+
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #imagem-principal {
+    width: 500px;
+    max-width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .miniaturas {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .miniaturas img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+  }
+  
+  .miniaturas img:hover {
+    border-color: green;
+  }
+  
+footer{
+  background-color: #1A242D;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-size: italic;
+  text-decoration: underline;
+}
+
+  
